@@ -16,3 +16,5 @@ Use these steps for setting up a development environment to install and work wit
 ## Running Jupyter Notebooks for Exploration
 The initial exploration from the hackathon is in `notebooks/exploration.ipynb`
 After you have installed the dependencies, you can run `jupyter notebook` or `jupyter lab`, then open `exploration.ipynb`. See the [jupyter documentation](https://docs.jupyter.org/en/latest/) for more details.
+
+Note that the jupyter notebook with images and data outputs is too big to be committed to Github, so after you run the notebook, you can export it to pdf using [nbconvert](https://nbconvert.readthedocs.io/en/latest/). Then clear the notebook outputs, save and commit. 
