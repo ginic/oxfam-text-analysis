@@ -27,7 +27,7 @@ dependencies = [
     "scikit-learn",
     "sentence-transformers",
     "spacy",
-    "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"
+    "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl",
     "jupyter",
     "matplotlib",
     "seaborn",
@@ -42,6 +42,7 @@ test = [
 # Dependencies that are useful only to developers, like an autoformatter and support for visualizations in jupyter notebooks go here
 dev = [
     "ruff",
+    "nbconvert",
 ]
 
 # If your project contains scripts you'd like to be available command line, you can define them here.
